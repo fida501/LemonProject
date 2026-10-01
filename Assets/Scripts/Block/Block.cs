@@ -1,6 +1,7 @@
 using System;
 using Unity.VisualScripting;
 using UnityEngine;
+using PrimeTween;
 
 public class Block : MonoBehaviour
 {
@@ -52,5 +53,20 @@ public class Block : MonoBehaviour
 
         meshRenderer.material = material;
     }
+    public void AnimationMovePosition(Vector3 targetPosition, Action onComplete = null)
+    {
+        Tween.Position(transform, targetPosition, 0.2f, Ease.InOutQuad).OnComplete(() =>
+        {
+            onComplete?.Invoke();
+        });
+    }
 
+    public void AnimationDestroy(Action onComplete = null)
+    {
+        Tween.Scale(transform, Vector3.zero, 0.2f, Ease.InOutQuad).OnComplete(() =>
+        {
+            onComplete?.Invoke();
+            Destroy(gameObject);
+        });
+    }
 }
