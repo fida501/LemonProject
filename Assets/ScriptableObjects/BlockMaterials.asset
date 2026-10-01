@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7510de93a7f5394db329304116f95c7, type: 3}
+  m_Name: BlockMaterials
+  m_EditorClassIdentifier: Assembly-CSharp::BlockColors
+  materials:
+  - color: 0
+    material: {fileID: 2100000, guid: 04214c06f9921fe488e4c7af2779ae91, type: 2}
+  - color: 1
+    material: {fileID: 2100000, guid: c8d8852d067cfff42b3d3457aee3e830, type: 2}
+  - color: 2
+    material: {fileID: 2100000, guid: e6963a5787e17e246b86fa930c7dfbd6, type: 2}
+  - color: 3
+    material: {fileID: 2100000, guid: 8c34b1c3251aa6941a2223794aebfa7b, type: 2}
+  - color: 4
+    material: {fileID: 2100000, guid: 3fef6c66a94240a42a5c61d725aaa977, type: 2}
+  - color: 5
+    material: {fileID: 2100000, guid: 036e87666aa5f7b4c80a0af27242b757, type: 2}
+  - color: 6
+    material: {fileID: 2100000, guid: 28c63f2c57f477943b4cbd83eb0f8de6, type: 2}
+  - color: 7
+    material: {fileID: 2100000, guid: d87c88e8f2d0e164cbccb6c9db928872, type: 2}
