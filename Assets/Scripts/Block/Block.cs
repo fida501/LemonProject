@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Block : MonoBehaviour
 {
-    Material test;
     public enum BlockColor
     {
         Red,
